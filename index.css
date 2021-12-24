@@ -1,0 +1,76 @@
+.body {
+  font-family: 'Courier New', Courier, monospace;
+  margin: unset;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: cadetblue;
+  font-size: larger;
+  height: 40px;
+}
+.header a:hover {
+  background-color: #292929;
+  color: #fff !important;
+  font-weight: bold;
+  transition: all ease 0.4s;
+}
+.tab-item.active {
+  background-color: #292929;
+  color: #fff !important;
+  font-weight: bold;
+}
+.aboutme {
+  margin: 2rem;
+}
+.aboutme-body {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  background-color: yellow;
+}
+.aboutme-text {
+  width: 70%;
+  padding: 10px;
+}
+.aboutme-img {
+  width: 25%;
+}
+.myimage {
+  width: 100%;
+}
+.download-cv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0c2d48;
+  color: #ffffff;
+  width: fit-content;
+  padding: 10px;
+}
+.download-cv:hover {
+  background-color: #131313;
+  transition: all ease 0.5s;
+}
+.aboutme-social {
+  display: flex;
+  justify-content: space-evenly;
+}
+.aboutme-social a {
+  margin: 6px 12px;
+}
+.aboutme-social i {
+  /* color: rgba(18, 17, 17, 0.4); */
+  font-size: x-large;
+}
+.aboutme-social a:hover i {
+  color: #17d1ac;
+  transition: all ease 0.5s;
+}
+.tab-content.blog {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}

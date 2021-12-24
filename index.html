@@ -1,1 +1,55 @@
-Coming Soon
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, intial-scale=1.0" />
+    <title>Ruchita Kachhap</title>
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <link
+      rel="icon"
+      href="https://www.pngall.com/wp-content/uploads/2016/04/Hexagon.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body class="body">
+    <div class="header">
+      <div class="tab-item" onclick="getTab(event, 'aboutme')" id="defaultOpen">About me</div>
+      <div class="tab-item" onclick="getTab(event, 'blog')">Blog</div>
+    </div>
+    <div id="aboutme" class="tab-content aboutme">
+      <div class="aboutme-body">
+        <div class="aboutme-text">
+          Hello!
+          <h2>This is Ruchita Kachhap</h2>
+          <p>
+            I am an outcome driven technology enthusiast. I love learning and enjoy going handson
+            with solutioning.
+          </p>
+          <a
+            class="download-cv"
+            href="https://drive.google.com/file/d/1ND5DCWmtDOjj09mj-wyI25Ti7wUxVIGG/view"
+            >Download CV</a
+          >
+        </div>
+        <div class="aboutme-img">
+          <img class="myimage" alt="model" src="images/ruchita.png" />
+        </div>
+      </div>
+      <div class="aboutme-social">
+        <a href="https://www.linkedin.com/in/ruchitakachhap/"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/_ketchupcatchup_/"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.youtube.com/channel/UC5ChM35c1tMRHu7gVEifqQA"
+          ><i class="fab fa-youtube"></i
+        ></a>
+      </div>
+    </div>
+    <div id="blog" class="tab-content blog">
+      <img src="https://gifimage.net/wp-content/uploads/2018/06/work-in-progress-gif-12.gif" />
+    </div>
+    <script src="index.js"></script>
+    <script>
+      document.getElementById('defaultOpen').click();
+    </script>
+  </body>
+</html>
