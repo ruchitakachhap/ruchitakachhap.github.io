@@ -70,7 +70,7 @@
   transition: all ease 0.5s;
 }
 .tab-content.blog {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+  padding: 1rem;
+  max-height: 85%;
+  overflow: auto;
 }
